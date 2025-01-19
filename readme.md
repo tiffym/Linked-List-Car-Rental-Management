@@ -1,9 +1,7 @@
 # Linked List Car Rental Management
 
 ## This program manages a car rental system using three linked lists for cars:
-Available cars
-Rented cars
-Repair cars
+Available cars, Rented cars, Repair cars
 
 ### Key Features:
 1. Adding Cars: Cars can be added to the available-for-rent list.
