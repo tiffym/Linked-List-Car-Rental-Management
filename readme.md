@@ -41,14 +41,15 @@ When the user selects the quit option (`7`), the program stores the data from al
 - When the program runs for the first time, it should load data from initial txt files that contain at least 5 cars in each list (available, rented, and in repair).
 
 ### Files
-Part 1 consists of 6 files, as follows:
+The program consists of 4 files, as follows:
 
 1. **main.c**: Contains the `main()` function, which controls the flow of the program.
 2. **main.h**: Contains the structure definitions and function prototypes.
 3. **functions.c**: Contains all the function implementations that are called by the `main()` function.
-4. **available.txt**: Contains a list of all cars available for rent.
-5. **rented.txt**: Contains a list of all cars that have been rented.
-6. **repair.txt**: Contains a list of all cars that are currently under repair.
+4. **makefile**
+**available.txt**: Contains a list of all cars available for rent.
+**rented.txt**: Contains a list of all cars that have been rented.
+**repair.txt**: Contains a list of all cars that are currently under repair.
 
 ### Compiling the Program
 To compile and run the program, follow these steps:
