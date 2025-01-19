@@ -1,21 +1,12 @@
-a2q1: q1.o q1_functions.o
-		gcc -Wall -std=c99 q1.o q1_functions.o -o a2q1
+Linked-List-Car-Rental-Management: main.o functions.o
+		gcc -Wall -std=c99 main.o functions.o -o Linked-List-Car-Rental-Management
 
-q1.o: q1.c q1.h
-		gcc -Wall -std=c99 -c q1.c
+main.o: main.c main.h
+		gcc -Wall -std=c99 -c main.c
 
-q1_functions.o: q1_functions.c q1.h
-		gcc -Wall -std=c99 -c q1_functions.c
-
-a2q2: q2.o q2_functions.o
-		gcc -Wall -std=c99 q2.o q2_functions.o -o a2q2
-
-q2.o: q2.c q2.h
-		gcc -Wall -std=c99 -c q2.c
-
-q2_functions.o: q2_functions.c q2.h
-		gcc -Wall -std=c99 -c q2_functions.c
+functions.o: functions.c main.h
+		gcc -Wall -std=c99 -c functions.c
 
 clean:
-		rm -f *.o a2q1 a2q2
+		rm -f *.o Linked-List-Car-Rental-Management
 
